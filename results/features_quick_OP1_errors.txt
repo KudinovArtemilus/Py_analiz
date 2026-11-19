@@ -1,0 +1,149 @@
+\\10.130.171.22\BufferShp\2026\10\09\26.150410.066807_OP1_20261009_025547.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+ValueError: offset must be non-negative and no greater than buffer length (8848)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149517.066658_OP1_20261006_202926.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (6,) and (0,) not aligned: 6 (dim 0) != 0 (dim 0)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149517.066658_OP1_20261006_202926.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (6,) and (0,) not aligned: 6 (dim 0) != 0 (dim 0)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149515.066658_OP1_20261006_201506.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+ValueError: offset must be non-negative and no greater than buffer length (117552)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149554.066658_OP1_20261006_212157.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (10,) and (0,) not aligned: 10 (dim 0) != 0 (dim 0)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149545.066658_OP1_20261006_211710.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149523.066658_OP1_20261006_204034.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\10\08\26.150242.066724_OP1_20261008_204812.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149541.066658_OP1_20261006_210427.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+ValueError: offset must be non-negative and no greater than buffer length (8848)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167821.067485_OP1_20261103_105705.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167821.067485_OP1_20261103_105705.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167821.067485_OP1_20261103_105705.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168109.067613_OP1_20261103_134513.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167961.067485_OP1_20261103_111313.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (27,) and (0,) not aligned: 27 (dim 0) != 0 (dim 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168109.067613_OP1_20261103_134513.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167961.067485_OP1_20261103_111313.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (27,) and (0,) not aligned: 27 (dim 0) != 0 (dim 0)
+

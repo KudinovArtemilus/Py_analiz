@@ -1,0 +1,381 @@
+\\10.130.171.22\BufferShp\2026\10\09\26.150389.066807_OP2_20261009_021818.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\10\09\26.150317.066807_OP2_20261009_010336.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\10\09\26.150380.066807_OP2_20261009_020929.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\10\09\26.150317.066807_OP2_20261009_010336.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\10\09\26.150380.066807_OP2_20261009_020929.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\10\08\26.150067.066724_OP2_20261008_224139.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (26,) and (0,) not aligned: 26 (dim 0) != 0 (dim 0)
+
+\\10.130.171.22\BufferShp\2026\10\06\26.149234.066778_OP2_20261006_183124.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\10\09\26.150360.066807_OP2_20261009_014142.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\10\09\26.150376.066807_OP2_20261009_021354.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+ValueError: offset must be non-negative and no greater than buffer length (15168)
+
+\\10.130.171.22\BufferShp\2026\10\09\26.150323.066807_OP2_20261009_005742.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167943.067485_OP2_20261103_092339.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168091.067613_OP2_20261103_131648.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168112.067613_OP2_20261103_141046.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168091.067613_OP2_20261103_131648.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167943.067485_OP2_20261103_092339.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168112.067613_OP2_20261103_141046.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167690.067482_OP2_20261103_021211.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167891.067485_OP2_20261103_081108.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167956.067485_OP2_20261103_111815.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168089.067613_OP2_20261103_131939.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168166.067613_OP2_20261103_151244.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168113.067613_OP2_20261103_141215.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167891.067485_OP2_20261103_081108.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167690.067482_OP2_20261103_021211.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168089.067613_OP2_20261103_131939.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167956.067485_OP2_20261103_111815.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168166.067613_OP2_20261103_151244.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168113.067613_OP2_20261103_141215.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167891.067485_OP2_20261103_081108.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167956.067485_OP2_20261103_111815.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167690.067482_OP2_20261103_021211.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168166.067613_OP2_20261103_151244.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 56, in features_for_file
+    r = read_shp(path)
+struct.error: unpack_from requires a buffer of at least 20 bytes for unpacking 4 bytes at offset 16 (actual buffer size is 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168089.067613_OP2_20261103_131939.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168113.067613_OP2_20261103_141215.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167700.067482_OP2_20261103_023354.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167879.067485_OP2_20261103_075234.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167811.067485_OP2_20261103_104559.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (33,) and (0,) not aligned: 33 (dim 0) != 0 (dim 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168107.067613_OP2_20261103_134136.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167700.067482_OP2_20261103_023354.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167879.067485_OP2_20261103_075234.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
+\\10.130.171.22\BufferShp\2026\11\03\26.167811.067485_OP2_20261103_104559.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 172, in features_for_file
+    f[key + '_pivot_lag'] = lag_samples(sp, ap)
+                            ~~~~~~~~~~~^^^^^^^^
+ValueError: shapes (33,) and (0,) not aligned: 33 (dim 0) != 0 (dim 0)
+
+\\10.130.171.22\BufferShp\2026\11\03\26.168107.067613_OP2_20261103_134136.shp
+Traceback (most recent call last):
+  File "D:\press_shp_analysis\extract_features.py", line 281, in _job
+    return features_for_file(p), None
+           ~~~~~~~~~~~~~~~~~^^^
+  File "D:\press_shp_analysis\extract_features.py", line 99, in features_for_file
+    v = np.gradient(pos, DT)                      # мм/с, отрицательная = вниз
+ValueError: Shape of array too small to calculate a numerical gradient, at least (edge_order + 1) elements are required.
+
